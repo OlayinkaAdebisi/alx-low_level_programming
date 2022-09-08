@@ -1,2 +1,2 @@
 #!/bin/bash
-./main.c
+export CFILE=main.c
