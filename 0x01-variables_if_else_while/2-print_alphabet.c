@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - Entry point
  *
@@ -10,9 +11,9 @@ char alpha = 'a';
 
 	while (alpha <= 'z')
 	{
-		printf("%c", alpha);
+		putchar(alpha);
 		alpha++;
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
