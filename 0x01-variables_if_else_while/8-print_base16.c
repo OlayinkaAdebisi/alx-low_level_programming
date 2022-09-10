@@ -6,12 +6,17 @@
 int main(void)
 {
 int hex = 0;
-
-	while (hex <= 'f')
+char dec = 'a';
+	while (hex < 10)
 	{
-		putchar(hex);
+		putchar(hex + '0');
 		hex++;
 	}
-putchar('\n');
+	while (dec <= 'f')
+	{
+		putchar(dec);
+		dec++;
+	}
+	putchar('\n');
 	return (0);
 }
