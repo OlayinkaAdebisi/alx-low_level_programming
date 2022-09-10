@@ -10,7 +10,7 @@ char alpha = 'a';
 
 	while (alpha <= 'z')
 	{
-		printf("%c", alpha);
+		printf("%c\n", alpha);
 		alpha++;
 	}
 	return (0);
