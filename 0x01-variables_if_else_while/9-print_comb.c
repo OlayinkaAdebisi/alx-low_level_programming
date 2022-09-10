@@ -14,8 +14,7 @@ while (digit <= 8)
 		digit++;
 		putchar(',');
 		putchar(' ');
-	 }
+       	}
 	putchar('9');
-	putchar('\n');
 	return (0);
 }
