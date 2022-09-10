@@ -6,12 +6,19 @@
  */
 int main(void)
 {
-char alpha;
+char alpha = 'a';
+char don = 'Z';
+while (alpha <= 'z')
+{
+putchar(alpha);
+	alpha++;
+}
+while (don <= 'Z')
+{
+putchar(don);
+	don++;
+}
+putchar('\n');
 
-for (alpha = 'a'; alpha <= 'z'; alpha++)
-	putchar(alpha);
-for (alpha = 'A'; alpha <= 'Z'; alpha++)
-	putchar(alpha);
-	putchar('\n')
 return (0);
 }
