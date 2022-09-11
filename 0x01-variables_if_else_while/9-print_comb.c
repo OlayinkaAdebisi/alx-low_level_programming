@@ -7,14 +7,13 @@
 int main(void)
 {
 	int digit = 0;
-	int g = 9;
-while (digit <= 8)
+while (digit <= 9)
 	{
 		putchar(digit + '0');
 		digit++;
 		putchar(',');
 		putchar(' ');
        	}
-	putchar(g +'\n');
+	putchar('\n');
 	return (0);
 }
