@@ -6,7 +6,7 @@
 int main(void)
 {
 	char dad[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	write(1, dad, 59);
+	fwrite(1, dad, 59);
 
 	return (1);
 }
