@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - Entry point
  * Return: Always 0 (Success
@@ -8,8 +8,8 @@ int main(void)
 	int ch;
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(ch);
+		_putchar(ch);
 	}
-		putchar('\n');
+		_putchar('\n');
 		return (0);
 }
