@@ -5,6 +5,11 @@
  */
 int main(void)
 {
-	printf("_putchar\n");
-	return (0);
+	int ch;
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		putchar(ch);
+	}
+		putchar('\n');
+		return (0);
 }
