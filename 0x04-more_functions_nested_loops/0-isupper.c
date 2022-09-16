@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * main - Entry point
- *
+ * _isupper - check if c is upper
+ * @c: input for alphabet
  * Return: Always 0 (Success)
  */
 int _isupper(int c)
