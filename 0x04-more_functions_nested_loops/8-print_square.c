@@ -6,16 +6,15 @@
  */
 void print_square(int size)
 {
-	int hash,ash;
-	
-		for (hash = 1; hash <= size; hash++)
-		{
+	int hash, ash;
+
+	for (hash = 1; hash <= size; hash++)
+	{
+		_putchar(35);
 			for (ash = 1; ash < size; ash++)
 			{
 				_putchar(35);
 			}
-			_putchar(35);
-			_putchar('\n');
-		}
-
+		_putchar('\n');
+	}
 }
