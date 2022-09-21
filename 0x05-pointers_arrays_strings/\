@@ -1,0 +1,14 @@
+#include "main.h"
+/**
+ * print_rev - printing string in reverse
+ * @str: 'string to be printed in reverse'
+ * Return: (str)
+ */
+void print_rev(char *s)
+{
+	while (*s != *(s + 1))
+	{
+		_putchar(*s);
+		s++;
+	}
+}
