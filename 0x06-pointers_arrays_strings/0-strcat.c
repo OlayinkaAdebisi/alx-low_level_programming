@@ -11,10 +11,10 @@ char *_strcat(char *dest, char *src)
 	
 	/* counting numbers of characters in dest */ 
 	k = 0;
-	while (dest[k] != '\0')
+	while (dest[k])
 		k++;
 	/* concatenate dest and src */
-	for (l = 0; src[l] != '\0'; l++)
+	for (l = 0; src[l]; l++)
 		dest[k++] = src[l];	
 	return 0;
 }
