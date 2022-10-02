@@ -4,9 +4,9 @@
  * main - advances
  * @argc: counts numbers of argu on cmd line
  * @argv: array of argc
- * Return: (main) 
+ * Return: (main)
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 
