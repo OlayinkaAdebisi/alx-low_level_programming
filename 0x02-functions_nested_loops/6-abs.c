@@ -1,18 +1,21 @@
 #include "main.h"
 /**
- *
- *
- *
+ * _abs - absolute value
+ * @r: number to be absoluted lol
+ * Return: (r)
  */
-int _abs(int n)
+int _abs(int r)
 {
-	int i;
-
-	i = ((n * i ));
-	if (n >= 48 && n <= 57)
-		_putchar(n);
-	else 
-		_putchar(i);
-		return (i);	
-	return (n);
+	if (r == 0)
+	{
+		_putchar(r);
+	}
+	else if (r < 0)
+	{
+		r = ((-1) * (r));
+		_putchar(r);
+	}
+	else
+		_putchar(r);
+	return (r);
 }
