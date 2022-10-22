@@ -16,7 +16,7 @@ void puts_half(char *str)
 			_putchar(str[n]);
 	}
 	else /*for odd numbers*/
-		for (n = (i - 1) / 2; str[n] != '\0'; n++)
+		for (n = ((i - 1) / 2) + 1; str[n] != '\0'; n++)
 			_putchar(str[n]);
 	_putchar('\n');
 }
